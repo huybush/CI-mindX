@@ -1,15 +1,12 @@
-import React from 'react'
-import '../assets/css/header.css'  ///import css 
-export function Header(props){  //props thoonng tin truyen vao neu sài .
-    return (
-        <div className="header-area">
-            <h1 className="red"> 😹 Search for your favorite emoji 😺</h1>
-        </div>
+import '../assets/css/Header.css'
+
+export function Header(props) {
+        return (
+        <ul className="header border">
+            <li className="nav-brand"><a href="#">Todo App</a></li>
+            <li className="nav-items"><a href="#">About</a></li>
+            <li className="nav-items"><a href="#">Sign Up</a></li>
+            <li className="nav-items"><a href="#">Sign In</a></li>
+        </ul>
     )
 }
-
-
-
-//cach khac 
-//export{Header} de chay code\
-// export default app; thì bên import không sài {}
