@@ -1,8 +1,9 @@
 export const firebaseConfig = {
-    apiKey: "AIzaSyCVuVEzJXtOPazIqYmki5ebsjvRvHWYQ9E",
-    authDomain: "huy-mindx.firebaseapp.com",
-    projectId: "huy-mindx",
-    storageBucket: "huy-mindx.appspot.com",
-    messagingSenderId: "457609250632",
-    appId: "1:457609250632:web:ee5f9cb1f898c0b5f5157d"
-  };
+  apiKey: "AIzaSyCkIg1UB2gOZ8LCekxPYEV0QvPbjeMar2c",
+  authDomain: "mindx-97937.firebaseapp.com",
+  projectId: "mindx-97937",
+  storageBucket: "mindx-97937.appspot.com",
+  messagingSenderId: "556724374558",
+  appId: "1:556724374558:web:3d015e6523d3324241720f",
+  measurementId: "G-Z3FJSCF0QB"
+};
